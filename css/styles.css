@@ -33,7 +33,7 @@ body {
   color: var(--logo-accent-color);
 }
 
-.menu-item {
+.nav-list {
   list-style: none;
 }
 .menu-link {
@@ -43,7 +43,7 @@ body {
   line-height: 1.14;
 }
 .menu-link.current {
-  color: var(--link-hover-focus);
+  color: #2196f3;
 }
 .menu-link:focus,
 .menu-link:hover {

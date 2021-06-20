@@ -1,0 +1,89 @@
+:root {
+  --primary-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --primary-font-color: #212121;
+  --secondary-font-color: #757575;
+  --logo-accent-color: #2196f3;
+  --logo-second-color: #000000;
+  --logo-footer-color: #ffffff;
+  --link-hover-focus: #2196f3;
+}
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 14px;
+}
+/*=============HEADER=============*/
+.header {
+}
+.header-nav {
+}
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--logo-second-color);
+  text-decoration: none;
+}
+.logo-accent {
+  color: var(--logo-accent-color);
+}
+.nav-list {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--primary-font-color);
+  font-weight: 500;
+  line-height: 1.14;
+}
+.nav-link.current {
+  color: #2196f3;
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--link-hover-focus);
+}
+.header-contact {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.14;
+}
+.cont-link {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+.cont-link:hover,
+.cont-link:focus {
+  color: var(--link-hover-focus);
+}
+/*=============HEADER=============*/
+
+/*=============HERO=============*/
+/*=============HEADER=============*/
+
+/*=============HERO=============*/
+.hidden-head
+.sort
+.sort-head
+.sort-list
+.sort-button
+.example-desk
+.example-head
+.example-list
+.example
+.example-name
+.example-type
+/*=============HERO=============*/
+
+/*=============FOOTER=============*/
+.hidden-footer-head
+.footer-logo
+.footer-logo-accent
+.address
+.address-list
+.address-location
+.address-link; /*=============FOOTER=============*/
