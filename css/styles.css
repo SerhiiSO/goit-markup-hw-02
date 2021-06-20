@@ -42,6 +42,9 @@ body {
   font-weight: 500;
   line-height: 1.14;
 }
+.menu-link.current {
+  color: var(--link-hover-focus);
+}
 .menu-link:focus,
 .menu-link:hover {
   color: var(--link-hover-focus);
@@ -177,4 +180,12 @@ body {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--link-hover-focus);
+}
+.footer-location:hover,
+.footer-location:focus {
+  color: var(--link-hover-focus);
 }
