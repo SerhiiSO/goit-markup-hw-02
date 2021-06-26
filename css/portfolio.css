@@ -80,6 +80,7 @@ body {
 }
 .sort-button {
   font-family: var(--primary-font);
+  font-size: 16px;
   background-color: #f5f4fa;
   color: #212121;
   font-weight: 500;
