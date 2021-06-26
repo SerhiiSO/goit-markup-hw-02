@@ -49,7 +49,10 @@ body {
 .nav-link:focus {
   color: var(--link-hover-focus);
 }
+.nav-contact {
+}
 .header-contact {
+  list-style: none;
   text-decoration: none;
   color: #757575;
   font-weight: 500;
